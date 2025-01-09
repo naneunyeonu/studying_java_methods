@@ -10,10 +10,16 @@ public class AboutStringBuilder {
 
         // 아래는 사용 예시
         StringBuilder sb = new StringBuilder("Hello");
+        // 예시 하나 더??
+        String testName = "Now Testing";
+        StringBuilder sb2 = new StringBuilder(testName);
 
         // 문자열 추가
         sb.append(" World");
         System.out.println(sb);
+        //
+        sb2.append("!!!!");
+        System.out.println(sb2);
 
         // 삽입
         sb.insert(5, ",");
